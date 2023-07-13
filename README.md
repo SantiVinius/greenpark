@@ -19,7 +19,7 @@ Além disso, é possível filtrar os boletos com base em diferentes critérios, 
 2.  Instale as dependências do projeto utilizando o comando `npm install`.
 3.  Certifique-se de ter um banco de dados compatível com o Sequelize (utilizei o PostgreSQL) e configure as credenciais de acesso no arquivo `config/database.js`.
 4.  Com o banco conectado, na primeira execução do projeto as tabelas serão criadas automaticamente`.
-5. Crie uma pasta chamada `boletos` na raiz do projeto (para salvar os boletos gerados pelo endpoint `/pdf`.
+5. Crie uma pasta chamada `boletos` na raiz do projeto (para salvar os boletos gerados pelo endpoint `/pdf`).
 
 ## Executando o Projeto
 
