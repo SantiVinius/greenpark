@@ -28,7 +28,7 @@ Para iniciar o servidor, utilize o comando `npm run dev`. O servidor estará dis
 ## Endpoints Disponíveis
 
 -   `POST /import`: Endpoint para importação de boletos através de um arquivo CSV. Os boletos são mapeados com os lotes internos do sistema da portaria.
--   `POST /pdf`: Endpoint para receber um arquivo PDF contendo os boletos e distribuí-los em arquivos separados na pasta local.
+-   `POST /pdf`: Endpoint para receber um arquivo PDF contendo os boletos e distribuí-los em arquivos separados na pasta local, em ordem crescente de IDs.
 -   `GET /boletos`: Endpoint para retornar todos os boletos existentes no sistema. Podem ser aplicados filtros opcionais para refinar a busca, como nome, valor e ID do lote. Os boletos são retornados em JSON. 
 Também é possível retornar um relatório em PDF contendo os boletos em formato de tabela, basta adicionar `relatorio=1` como parâmetro da requisição.  O relatório é retornado em formato base64, e também cria um PDF na raiz do projeto.
 
