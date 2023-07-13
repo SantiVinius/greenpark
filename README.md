@@ -37,3 +37,4 @@ Também é possível retornar um relatório em PDF contendo os boletos em format
 -   É necessário ter o Node.js e o banco de dados configurados corretamente para executar o projeto.
 -   Certifique-se de ter as dependências necessárias instaladas.
 -   Os caminhos dos arquivos e outras configurações podem ser ajustados de acordo com suas necessidades.
+-   Utilizei o Insomnia para testar os endpoints e upload de arquivos.
